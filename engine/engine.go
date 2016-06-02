@@ -3,7 +3,7 @@ package engine
 import (
 	"fmt"
 	"github.com/huichen/murmur"
-	"github.com/huichen/sego"
+	"github.com/jiangzhengqiao/sego"
 	"github.com/huichen/wukong/core"
 	"github.com/huichen/wukong/storage"
 	"github.com/huichen/wukong/types"
