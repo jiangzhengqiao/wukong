@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/huichen/wukong/types"
-	"github.com/huichen/wukong/utils"
+	"github.com/jiangzhengqiao/wukong/types"
+	"github.com/jiangzhengqiao/wukong/utils"
 	"log"
 	"sort"
 	"sync"

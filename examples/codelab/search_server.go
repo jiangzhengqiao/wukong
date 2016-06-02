@@ -6,8 +6,8 @@ import (
 	"encoding/gob"
 	"encoding/json"
 	"flag"
-	"github.com/huichen/wukong/engine"
-	"github.com/huichen/wukong/types"
+	"github.com/jiangzhengqiao/wukong/engine"
+	"github.com/jiangzhengqiao/wukong/types"
 	"io"
 	"log"
 	"net/http"
@@ -24,12 +24,12 @@ const (
 )
 
 var (
-	searcher = engine.Engine{}
-	wbs      = map[uint64]Weibo{}
-	weiboData = flag.String("weibo_data", "../../testdata/weibo_data.txt", "微博数据文件")
-	dictFile = flag.String("dict_file", "../../data/dictionary.txt", "词典文件")
+	searcher      = engine.Engine{}
+	wbs           = map[uint64]Weibo{}
+	weiboData     = flag.String("weibo_data", "../../testdata/weibo_data.txt", "微博数据文件")
+	dictFile      = flag.String("dict_file", "../../data/dictionary.txt", "词典文件")
 	stopTokenFile = flag.String("stop_token_file", "../../data/stop_tokens.txt", "停用词文件")
-	staticFolder = flag.String("static_folder", "static", "静态文件目录")
+	staticFolder  = flag.String("static_folder", "static", "静态文件目录")
 )
 
 type Weibo struct {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 	"encoding/gob"
-	"github.com/huichen/wukong/types"
+	"github.com/jiangzhengqiao/wukong/types"
 	"sync/atomic"
 )
 

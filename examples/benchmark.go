@@ -4,8 +4,8 @@ package main
 import (
 	"bufio"
 	"flag"
-	"github.com/huichen/wukong/engine"
-	"github.com/huichen/wukong/types"
+	"github.com/jiangzhengqiao/wukong/engine"
+	"github.com/jiangzhengqiao/wukong/types"
 	"log"
 	"os"
 	"runtime"
