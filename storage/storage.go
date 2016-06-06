@@ -8,8 +8,8 @@ import (
 const DEFAULT_STORAGE_ENGINE = "bolt"
 
 var supportedStorage = map[string]func(path string) (Storage, error){
-	"kv":   openKVStorage,
-	"bolt": openBoltStorage,
+// "kv":   openKVStorage,
+// "bolt": openBoltStorage,
 }
 
 func RegisterStorageEngine(name string, fn func(path string) (Storage, error)) {
